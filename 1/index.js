@@ -36,16 +36,15 @@ const alphabets = [
 ];
 
 // for (let i = 0; i < word.length; i++) {
-  for (let j = 0; j < alphabets.length; j++) {
-    if (word[i]?.toUpperCase() === alphabets[j]) {
-      alphabetLenght += 1;
-    }
+for (let j = 0; j < alphabets.length; j++) {
+  if (word[i]?.toUpperCase() === alphabets[j]) {
+    alphabetLenght += 1;
   }
 }
 
 for (let i = 0; i < word.length; i++) {
   for (let j = 0; j < numbers.length; j++) {
-    if (word[i]?.toUpperCase() === numbers[j]) {
+    if (word[i] === numbers[j]) {
       numberLenght += 1;
     }
   }
